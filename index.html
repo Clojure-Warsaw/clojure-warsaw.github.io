@@ -52,7 +52,12 @@
     font-weight: 700;
     margin-top: 1vmin;
   }
-  figcaption a { text-decoration: none; }
+  figcaption a, .signup a { text-decoration: none; }
+  .signup {
+    font-size: min(3.6vmin, 2.1vw);
+    font-weight: 700;
+    margin-bottom: 1vmin;
+  }
 
   @media (max-aspect-ratio: 1/1) {
     main { flex-direction: column; text-align: center; gap: 4vh; }
@@ -60,7 +65,7 @@
     h1 { font-size: 8.5vw; white-space: normal; margin-bottom: 3vh; }
     p { font-size: 4.6vw; }
     .qr { width: 60vw; height: 60vw; margin: 0 auto; }
-    figcaption { font-size: 5vw; }
+    figcaption, .signup { font-size: 5vw; }
   }
 </style>
 </head>
@@ -72,10 +77,12 @@
       <p>3 November 2026, 18:30</p>
       <p>Perliczka Praska, Okrzei 26</p>
       <p>2 talks (TBD) + drinks</p>
+      <p>Max 25 attendees</p>
       <p class="save">Save the date!</p>
     </div>
     <figure>
-      <a href="https://clojure-warsaw.github.io"><img class="qr" src="qr.png" alt="QR code: clojure-warsaw.github.io"></a>
+      <p class="signup"><a href="https://luma.com/myd6jgkb">Scan or click to sign up</a></p>
+      <a href="https://luma.com/myd6jgkb"><img class="qr" src="qr.png" alt="QR code: clojure-warsaw.github.io"></a>
       <figcaption><a href="https://clojure-warsaw.github.io">clojure-warsaw.github.io</a></figcaption>
     </figure>
   </main>
