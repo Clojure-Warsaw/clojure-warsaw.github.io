@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clojure Warsaw #1</title>
+<meta name="description" content="Clojure Warsaw #1 — 3 November 2026, 18:30, Perliczka Praska, Okrzei 26. 2 talks + drinks.">
+<link rel="icon" href="mermaid-new.svg" type="image/svg+xml">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    background: #fff;
+    color: #000;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 4vmin;
+  }
+  main {
+    display: flex;
+    align-items: center;
+    gap: 3.5vmin;
+  }
+  .logo { height: min(46vh, 26vw); width: auto; }
+  h1 {
+    font-size: min(8vmin, 4.3vw);
+    white-space: nowrap;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1;
+    margin-bottom: 5vmin;
+  }
+  p { font-size: min(4vmin, 2.2vw); line-height: 1.45; white-space: nowrap; }
+  .save {
+    font-weight: 700;
+    margin-top: 4vmin;
+  }
+  a { color: inherit; }
+  figure { text-align: center; }
+  .qr {
+    display: block;
+    width: min(50vmin, 30vw);
+    height: min(50vmin, 30vw);
+    image-rendering: pixelated;
+  }
+  figcaption {
+    font-size: min(3.6vmin, 2.1vw);
+    font-weight: 700;
+    margin-top: 1vmin;
+  }
+  figcaption a { text-decoration: none; }
+
+  @media (max-aspect-ratio: 1/1) {
+    main { flex-direction: column; text-align: center; gap: 4vh; }
+    .logo { height: 24vh; }
+    h1 { font-size: 8.5vw; white-space: normal; margin-bottom: 3vh; }
+    p { font-size: 4.6vw; }
+    .qr { width: 60vw; height: 60vw; margin: 0 auto; }
+    figcaption { font-size: 5vw; }
+  }
+</style>
+</head>
+<body>
+  <main>
+    <img class="logo" src="mermaid-new.svg" alt="Clojure Warsaw logo">
+    <div>
+      <h1>Clojure Warsaw #1</h1>
+      <p>3 November 2026, 18:30</p>
+      <p>Perliczka Praska, Okrzei 26</p>
+      <p>2 talks (TBD) + drinks</p>
+      <p class="save">Save the date!</p>
+    </div>
+    <figure>
+      <a href="https://clojure-warsaw.github.io"><img class="qr" src="qr.png" alt="QR code: clojure-warsaw.github.io"></a>
+      <figcaption><a href="https://clojure-warsaw.github.io">clojure-warsaw.github.io</a></figcaption>
+    </figure>
+  </main>
+</body>
+</html>
